@@ -16,7 +16,7 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
-        <li className="p-4">Resouces</li>
+        <li className="p-4">Resources</li>
         <li className="p-4">About</li>
         <li className="p-4">Contact</li>
       </ul>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <ul className="uppercase p-4">
           <li className="p-4 border-b border-gray-600">Home</li>
           <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Resouces</li>
+          <li className="p-4 border-b border-gray-600">Resources</li>
           <li className="p-4 border-b border-gray-600">About</li>
           <li className="p-4">Contact</li>
         </ul>
