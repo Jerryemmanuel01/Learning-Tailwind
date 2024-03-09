@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import Analytics from "./component/Analytics";
 import Newsletter from "./component/Newsletter";
+import Cards from "./component/Cards";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Analytics />
       <Newsletter />
+      <Cards />
     </>
   );
 }
