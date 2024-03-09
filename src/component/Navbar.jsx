@@ -1,19 +1,19 @@
-import React, {useState} from 'react'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import React, { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(true);
 
-    const handleNav = () => {
-        setNav(!nav)
-    }
+  const handleNav = () => {
+    setNav(!nav);
+  };
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] px-4 mx-auto text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">
         REACT TAILWIND
       </h1>
-      <ul className="flex hidden md:flex">
+      <ul className="hidden md:flex">
         <li className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resouces</li>
@@ -46,7 +46,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
-
+export default Navbar;
