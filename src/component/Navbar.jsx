@@ -29,7 +29,7 @@ const Navbar = () => {
         className={`block md:hidden ${
           !nav
             ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-            : "fixed left-[-100%]"
+            : "fixed left-[-100%] ease duration-500 h-full"
         }`}
       >
         <h1 className="w-full text-3xl font-bold m-4 text-[#00df9a]">
