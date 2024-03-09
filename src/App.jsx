@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import Analytics from "./component/Analytics";
 import Newsletter from "./component/Newsletter";
 import Cards from "./component/Cards";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Analytics />
       <Newsletter />
       <Cards />
+      <Footer />
     </>
   );
 }
